@@ -1,0 +1,153 @@
+body{
+    width: 100%;
+    margin: 0px;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow:hidden;
+    padding: 2rem;
+}
+
+header{
+    width: 90%;
+    margin: 1rem auto;
+    height: 5rem;
+}
+
+header nav{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+header nav ul{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+header nav ul li .dropdown{
+    position: relative;
+}
+
+header nav ul li .dropdown a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0.1rem;
+}
+
+header nav ul li .dropdown .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+}
+
+header nav ul li .dropdown .dropdown-content {
+    position: absolute;
+    width: max-content;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+    top: 3rem;
+    padding: 0rem 2rem 2rem;
+}
+
+
+main{
+    width: 90%;
+    margin: 0px;
+    height: 70%;
+    border: 2px solid black;
+    display:flex;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+main .div{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+main .div .text{
+    width: 70%;
+    height: auto;
+    position: relative;
+}
+
+main .div .text h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0px;
+}
+
+main .div .text p{
+    width: 65%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin-bottom: 10rem;
+}
+
+main .div .text .span{
+    position:absolute;
+    bottom: 0px;
+    height: 6rem;
+}
+
+main .div .text .span p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px;
+}
+
+main .div .text .span span{
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+main .div .text .span span a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 100;
+    color: black;
+}
+
+main .div .text{
+    width: 65%;
+}
+
+main .div .image{
+    width: 50%;
+    height: 100%;
+}
+
+main .div .image img{
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+}
+
