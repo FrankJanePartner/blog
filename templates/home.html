@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>POD APEX</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="{% static 'core/css/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'core/css/boxicons/css/boxicons.css' %}" rel="stylesheet">
+  <link href="{% static 'core/css/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'core/css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="toggleDropdown('dropdown-content')" class="dropbtn">Categories</button>
+                        <div class="dropdown-content" id="dropdown-content">
+                            <a href="#">Service 1</a>
+                            <a href="#">Service 2</a>
+                            <a href="#">Service 3</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href='/allPost/'>Learn</a>
+                </li>
+                <li>
+                    <a href='/carrier/'>Career</a>
+                </li>
+                <li>
+                    <a href='/contact/'>Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class='div'>
+            <div class='text'>
+                <h1>Pod Apex</h1>
+                <p>Here, we explore the world of ideas, Stories, and insights, offering valuable knowledge and thought-provoing prespectives</p>
+                <span class='span'>
+                    <p>@podapex</p>
+                    <span>
+                        <a href='https://www.instagram.com/_perpyy/'><i class='ri-instagram-line'></i></a>
+                        <a href='https://www.facebook.com/perpetual.daniels.79/'><i class='ri-facebook-fill'></i></a>
+                        <a href=''><i class='ri-twitter-fill'></i></a>
+                        <a href='https://www.linkedin.com/in/perpetual-oviri-oghenekaro-053a61198/'><i class='ri-linkedin-box-fill'></i></a>
+                    </span>
+                <span>
+            </div>
+            <div class='image'><img src="{% static 'core/images/20231020_181135.jpg' %}" alt=''></div>
+        </div>
+    </main>
+  <script src="{% static 'core/javascript/script.js' %}"></script>
+</body>
+</html>

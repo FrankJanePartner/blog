@@ -1,0 +1,15 @@
+{% if title %}
+    <title>{{ title }}</title>
+{% else %}
+    <title>Title</title>
+{% endif %}
+
+
+{% for post in posts %}
+    {{ post.title }}
+    {{ post.author }}
+    {{ post.created_at|date:'F d, Y' }}
+    {{ post.content }}
+{% endfor %}
+
+<a href='{% url 'urlname' %}></a>
